@@ -1,0 +1,201 @@
+@font-face {
+    font-family:"Px Grotesk Light";
+    src: url("../fonts/Px Grotesk Light.ttf") format("truetype");
+}
+
+*{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-family: Px Grotesk Light, system-ui, serif;
+}
+
+
+.background{
+    width: 100%;
+    /*-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);*/
+    opacity: 1
+
+
+}
+
+.title{
+    margin-top: 7px;
+    font-size: 4em;
+    text-align: center;
+}
+
+.chapter{
+    padding-top: 0;
+    font-size: 2em;
+    text-align: justify;
+}
+
+.hover{
+    color: lightgrey; /*colour of text hyperlink*/
+    cursor: pointer;
+}
+
+.hover1{
+    left: 570px;
+    top: 180px;
+}
+
+.hidden-box{
+    position: absolute;
+    padding: 10px;
+    background-color: white;
+    border: lightgrey 1px solid;
+    text-align: left;
+    width: 110px;
+    height: 110px;
+    font-size: .5em;
+}
+
+img {
+    opacity: 0.2;
+    filter: alpha(opacity=20); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+.numberBox{
+    position: absolute;
+    width: 600px;
+}
+
+.number{
+    font-size: 400px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.numberOne{
+    left: 570px;
+    top: 180px;
+}
+
+.numberTwo{
+    left: 4950px;
+    top: 210px;
+}
+
+.numberThree{
+    left: 3570px;
+    top: 910px;
+}
+.numberFour{
+    left: 2220px;
+    top: 380px;
+}
+
+.numberFive{
+    left: 970px;
+    top: 1390px;
+}
+
+.numberSix{
+    left: 3070px;
+    top: 2110px;
+}
+
+.numberSeven{
+    left: 3770px;
+    top: 2110px;
+}
+ 
+.numberEight{
+    left: 4570px;
+    top: 1810px;
+}
+
+.numberNine{
+    left: 570px;
+    top: 2100px;
+}
+
+.makeAppear2{
+    padding-left: 15px;
+}
+
+.titleOfChapter{
+    font-size: 25px;
+    margin: -78px 42px;
+    font-weight: bold;
+}
+
+.arrowNumber{
+    margin: 80px 0 0 42px;
+}
+
+.next{
+    height: 30px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.boxAppear{
+    display: none;
+    left: 44px;
+    top: 390px;
+}
+
+.x{
+    height: 20px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.nextInBox{
+    margin-left: 95%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.box{
+    width: 90vw;  /*controls width to screen*/
+    height: 120vh;  /*controls height to screen*/
+    background-color: white;
+    border: black 1px solid;
+    color: black;
+    padding: 20px;
+    overflow-x: scroll;
+    position: absolute;
+}
+
+.rhodeNumber{
+    opacity: 1;
+    scale: 100%;
+    margin: 0 0 80px 30px;
+}
+
+.boxAppear-rhodeNumber{
+    display: none;
+    left: 44px;
+    top: 350px;
+}
+
+#hidden-box1{
+    position: absolute;
+    display: none;
+    left: 570px;
+    top: 180px;
+    z-index:1000;
+}
+
+#hidden-box2{
+    position: absolute;
+    display: none;
+    left: 4950px;
+    top: 210px;
+    z-index:1000;
+}
